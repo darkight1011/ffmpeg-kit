@@ -26,9 +26,8 @@ def safeExtGet(String prop, String fallback) {
 }
 
 android {
-  if (project.android.hasProperty("namespace")) {
-    namespace 'com.arthenica.ffmpegkit.reactnative'
-  }
+   namespace "com.arthenica.ffmpegkit"
+
 
   compileSdkVersion 33
 
